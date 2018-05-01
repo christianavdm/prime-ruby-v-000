@@ -1,6 +1,6 @@
 def prime?(num)
   array = (2...num).to_a
-  if num < 1 
+  if num < 2
     return false
   elsif
     array.any?{|x| num % x == 0}
