@@ -1,6 +1,4 @@
 def prime?(num)
-  
-  i = num - 1 
-  array = 
+  array = 1 ... num
   
 end
