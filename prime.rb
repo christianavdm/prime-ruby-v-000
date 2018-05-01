@@ -1,4 +1,7 @@
 def prime?(num)
-  array = (1...num).to_a
-  array.any?
+  array = (2...num).to_a
+  array.any? do |x|
+    num/x
+    
+  end
 end
